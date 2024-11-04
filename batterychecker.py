@@ -8,7 +8,7 @@ if battery is not None:
         print('your battery is 100%')
         desktop_path = os.path.join(os.path.expanduser('~'),"Desktop","BatteryReminder.txt")
         with open(desktop_path,'w') as file:
-            file.write('your battery is 100%, remove Charging')
+            file.write('your battery is 100%, remove charging pin.')
 
         try:
             os.startfile(desktop_path)
